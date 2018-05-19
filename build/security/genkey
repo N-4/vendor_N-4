@@ -1,0 +1,11 @@
+#!/bin/sh
+
+for keyname in releasekey platform shared media verify
+do
+  echo "" | ~/android/development/tools/make_key $keyname '/C=US/ST=California/L=Mountain View/O=Android/OU=Android/CN=Android/emailAddress=android@android.com'
+done
+
+for F in release-keys*
+do
+  ln -sf $F ${F/release-keys/testkey}
+done

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+
+  <string name="config_dozeComponent" translatable="false">com.android.systemui/com.android.systemui.doze.DozeService</string>
+
+  <string-array name="config_disabledUntilUsedPreinstalledImes" translatable="false">
+    <item>com.google.android.inputmethod.latin</item>
+    <item>com.google.android.apps.inputmethod.hindi</item>
+    <item>com.google.android.inputmethod.japanese</item>
+    <item>com.google.android.inputmethod.korean</item>
+    <item>com.google.android.inputmethod.pinyin</item>
+    <item>jp.co.omronsoft.iwnnime.ml</item>
+    <item>com.nuance.xt9.input</item>
+  </string-array>
+
+    <string-array name="config_locationProviderPackageNames" translatable="false">
+        <!-- The Google provider -->
+        <item>com.google.android.gms</item>
+        <!-- The standard AOSP fused location provider -->
+        <item>com.android.location.fused</item>
+    </string-array>
+
+    <bool name="config_cellBroadcastAppLinks">true</bool>
+
+</resources>
